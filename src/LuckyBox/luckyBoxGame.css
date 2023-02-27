@@ -1,0 +1,194 @@
+.luckyBox-second {
+  /* position: absolute; */
+  width: 100%;
+  /* height: 613px; */
+  /* left: 88px;
+  top: 168px; */
+}
+
+.luckyBox-second img{
+  width: 100%;
+}
+
+/* .arrow-left {
+  position: absolute;
+  width: 609px;
+  height: 0px;
+  left: 800px;
+  top: 839px;
+
+  border: 1px solid #2a2a2a;
+} */
+
+/* .arrow-right {
+  position: absolute;
+  width: 609px;
+  height: 0px;
+  top: 838px;
+  right: 837px;
+  border: 1px solid #2a2a2a;
+} */
+
+.lb-background-table {
+  /* position: relative; */
+  width: 100%;
+  /* height: 46rem; */
+  /* top: 57rem; */
+
+  background: #2a2a2a;
+}
+.lb-row3{
+  padding-bottom: 4rem;
+  /* padding-top: 2rem; */
+}
+
+/* .lb-table{
+  width: 100px;
+} */
+
+
+table {
+  padding: 0 1rem;
+  table-layout:fixed ;
+  border-collapse: separate !important;
+  border-spacing: 0 1em !important;
+  width: 100%;
+}
+
+.amount-td {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.035em;
+
+  color: #2ad200;
+}
+
+th {
+  width: 100px;
+  /* left: 45px; */
+  /* top: 53px; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.035em;
+
+  color: #ffffff;
+  background: #ee6000 !important;
+  padding: 10px 35px;
+  word-wrap: break-word;
+
+}
+
+th:nth-child(1) {
+  border-radius: 18px 0px 0px 18px;
+}
+
+th:nth-last-child(1) {
+  border-radius: 0px 18px 18px 0px;
+}
+
+td:nth-child(1) {
+  border-radius: 18px 0px 0px 18px;
+}
+
+td:nth-last-child(1) {
+  border-radius: 0px 18px 18px 0px;
+}
+
+tr {
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+td {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: rgba(42, 42, 42, 0.8);
+  background: #fcecdd;
+  padding: 10px 7px;
+  word-wrap: break-word;
+
+}
+
+
+.lbg-box{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(88, 55, 210, 0.8) 0%, #4801B6 100%);
+border-radius: 90px;
+width: 100%;
+height: 34vw;
+
+}
+
+.lbg-imgbox{
+  text-align: center;
+}
+.lbg-imgbox1{
+  text-align: center;
+  position: relative;
+  top: -23vw;
+}
+.lbg-stars{
+width: 51vw;
+}
+.lbg-circle{
+  width: 13vw;
+}
+.lbg-textlist{
+  list-style-type: none;
+}
+.lbg-text{
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: -31.1vw;
+}
+
+ @media (max-width:425px){
+  .lbg-box{
+    border-radius: 22px;
+  }
+ }
+
+
+ @media (min-width:426px) and (max-width:768px){
+  .lbg-box{
+    border-radius: 35px;
+  }
+ }
+
+
+ .lbg-luckgift{
+  position: relative;
+    text-align: center;
+    top: -28vw;
+ }
+ .lbg-giftboximg{
+  width: 6vw;
+  padding-bottom: 1vw;
+ }
+
+ .lbg-left{
+   
+ }
+
+ .lbg-right{
+
+ }

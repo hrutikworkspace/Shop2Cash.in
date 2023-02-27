@@ -1,0 +1,237 @@
+.main-box1 {
+  background: radial-gradient(50% 50% at 50% 50%, #ffdfec 0%, #fd92d6 100%);
+  border-radius: 90px;
+}
+
+.SpinWord {
+  padding: 2rem;
+  font-family: "Lato";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.spinButton {
+  background: #2a2a2a;
+  box-shadow: 2px 2px 4px rgb(255 255 255 / 50%);
+  border-radius: 27px;
+  padding: 0.5rem 2rem;
+}
+
+.spinButtonName {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .spinImageCenter {
+    display: block;
+  }
+}
+
+@media (max-width: 425px) {
+  .main-box1 {
+    border-radius: 50px;
+  }
+
+  .SpinWord {
+    padding: 0.5rem;
+    font-size: 7vw;
+  }
+
+  .spinImage {
+    margin-top: -1rem;
+    padding-bottom: 5.5rem;
+    width: 40%;
+  }
+
+  .spinButtondiv {
+    padding-bottom: 0rem;
+    
+  }
+  .spin-top{
+    margin-top: -6 rem !important;
+  }
+
+  .spinButtonName {
+    font-size: 4vw;
+    line-height: 20px;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .main-box1 {
+    border-radius: 50px;
+  }
+
+  .SpinWord {
+    padding: 0.5rem;
+    font-size: 7vw;
+  }
+
+  .spinImage {
+    margin-top: -1rem;
+    padding-bottom: 5.5rem;
+    width: 40%;
+  }
+
+  .spinButtondiv {
+    padding-bottom: 0rem;
+  }
+
+  .spinButtonName {
+    font-size: 3vw;
+    line-height: 20px;
+    padding: 8px 10px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .SpinWord {
+    padding: 2rem;
+    font-size: 8vh;
+  }
+
+  .spinImageCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9rem;
+  }
+
+  .spinImage {
+    margin-top: -1rem;
+    width: 40%;
+  }
+
+  .spinButtondiv {
+    padding-left: 2rem;
+  }
+
+  .spinButtonName {
+    font-size: 2vw;
+    line-height: 20px;
+    padding: 13px 20px;
+  }
+}
+
+@media (min-width:1024px) {
+  .SpinWord {
+    padding: 2rem;
+    font-size: 9vh;
+}
+
+  .spinImageCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13rem;
+  }
+
+  .spinImage {
+    margin-top: -1rem;
+    width: 25%;
+}
+
+  .spinButtondiv {
+    padding-left: 2rem;
+  }
+
+  .spinButtonName {
+    font-size: 2vw;
+    line-height: 20px;
+    padding: 13px 20px;
+  }
+}
+
+.background-table {
+  position: relative;
+  width: 100%;
+  height: 46rem;
+  top: 57rem;
+
+  background: #2a2a2a;
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 0 1em !important;
+  width: 100%;
+}
+
+.amount-td {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.035em;
+
+  color: #2ad200;
+}
+
+th {
+  width: 100px;
+  /* left: 45px; */
+  /* top: 53px; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.035em;
+
+  color: #ffffff;
+  background: #ee6000 !important;
+  padding: 10px 35px;
+}
+
+th:nth-child(1) {
+  border-radius: 18px 0px 0px 18px;
+}
+
+th:nth-last-child(1) {
+  border-radius: 0px 18px 18px 0px;
+}
+
+td:nth-child(1) {
+  border-radius: 18px 0px 0px 18px;
+}
+
+td:nth-last-child(1) {
+  border-radius: 0px 18px 18px 0px;
+}
+
+tr {
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+td {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: rgba(42, 42, 42, 0.8);
+  background: #fcecdd;
+  padding: 10px 7px;
+}

@@ -1,0 +1,108 @@
+.pie-chart{
+   background: radial-gradient(circle closest-side, transparent 100%, #fff 0), conic-gradient(
+    from 100deg, pink 0,
+    pink 16%,
+    peru 0,
+    peru 32%,
+    pink 0,
+    pink 48%, 
+    peru 0,
+    peru 64%,               
+    pink 0,  
+    pink 80%,
+    peru 0,
+    peru 100%
+   );
+   min-width: 300px;
+   min-height: 300px;
+}
+.circle {
+    margin: -35.3rem -7.6rem;
+    width: 18.5em;
+    height: 18.5em;
+    position: absolute;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+
+}
+.spin-central {
+    position: absolute;
+    z-index: 1;
+    margin: 11rem -22rem;
+}
+.spin-gamer{
+    position: relative;
+    top: 10rem;
+}
+.spin-img{
+    left: -9rem;
+      width: 21rem;
+      position: relative;
+      
+  }
+  .triangle{
+    margin: 22rem -22rem;
+    position: absolute;
+    /* left: 39.5rem;
+    top: 32rem; */
+    z-index: 1;
+  }
+  .spin-new-btn{
+    background: #2a2a2a;
+  box-shadow: 2px 2px 4px rgb(255 255 255 / 50%);
+  border-radius: 27px;
+  padding: 0.5rem 2.1rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  width: 166%;
+  border: none;
+  }
+  .spin-new-btn1{
+    position: absolute;
+    left: 14rem;
+    top: -29rem;
+  }
+.spin-p1{
+    position: absolute;
+    top: 12rem;
+    left: 11rem;
+    transform: rotate(34deg);
+}
+.spin-p2{
+    position: absolute;
+    top: 11rem;
+    transform: rotate(150deg);
+    right: 186px;
+}
+.spin-p3{
+    right: 106px;
+    position: absolute;
+    top: 14rem;
+    transform: rotate(93deg);
+}
+.spin-p4{
+    right: 178px;
+    position: absolute;
+    top: 5rem;    
+    transform: rotate(219deg);
+}
+.spin-p5{
+    position: absolute;
+    top: 7rem;   
+    left: 12rem;
+    transform: rotate(-19deg);
+}
+.spin-p6{
+    position: absolute;
+    top: 3rem;
+    left: 7rem;
+    transform: rotate(-84deg);
+}

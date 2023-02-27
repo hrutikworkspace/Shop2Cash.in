@@ -1,0 +1,78 @@
+.mainBox-tc {
+  margin: 3rem 0rem;
+  background: #ffffff;
+  border: 1px solid #ee6000;
+  border-radius: 72px;
+}
+
+.tcBox-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+  padding: 20px 65px;
+}
+
+.tcBox-1line {
+  border: 0.5px solid #2a2a2a;
+}
+
+.tcBox-maindomain {
+  /* text-align: center; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+  padding: 40px 60px;
+}
+
+
+p{
+    /* margin-left: 1rem; */
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.p2 {
+  margin: 23px 0px;
+}
+
+.p3 {
+  margin: 23px 0px;
+}
+
+.p4 {
+  margin: 23px 0px;
+}
+
+.p5{
+  margin: 0px 0px;
+}
+
+.p6 {
+  margin: 0px -2px;
+}
+
+.p7 {
+  margin: 0 17px;
+}
+.p8 {
+  margin: 0 17px;
+}
+.p9 {
+  margin: 0px 25px;
+}
+.p10 {
+  margin: 0px 24px;
+}
+.p11 {
+  margin: 18px 6px;
+    padding-bottom: 40px;
+}

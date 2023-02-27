@@ -1,0 +1,287 @@
+.mainBox-order {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EE6000;
+    border-radius: 48px;
+}
+
+.orderBox-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.035em;
+    color: #2A2A2A;
+    padding: 20px 50px;
+}
+
+.orderBox-1line {
+    border: 0.5px solid #2A2A2A;
+}
+
+.anchor a{
+    color: black !important;
+}
+
+.orderBox1-main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    border-bottom: 1px solid darkgray;
+    align-items: center;
+}
+
+.orderBox-item {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.035em;
+    color: #58C033;
+    margin-bottom: 0.5rem !important;
+}
+
+.orderBox-cashback {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.035em;
+}
+
+.orderBox-price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: rgba(42, 42, 42, 0.6);
+}
+
+.orderBox-discount {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.orderBox-priceADIS {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2A2A2A;
+}
+
+.orderBox2-main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    border-bottom: 1px solid darkgray;
+    align-items: center;
+}
+
+.orderBox2-mainBook {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.orderBox2-Mname{
+    position: relative;
+    right: 0.5rem;
+}
+
+.orderBox3-Mname{
+    position: relative;
+    left: 1rem;
+}
+
+.orderBox4-Mname{
+    position: relative;
+    left: -1rem;
+}
+
+.orderBox5-Mname{
+    position: relative;
+    left: 1rem;
+}
+
+.orderBox3-price{
+    position: relative;
+    right: 1.5rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: rgba(42, 42, 42, 0.6);
+}
+
+.orderBox2-item {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.035em;
+    color: #2A2A2A;
+    margin-bottom: 0.5rem !important;
+}
+
+.orderBox2-delivery {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.035em;
+    color: rgba(42, 42, 42, 0.8);
+}
+
+
+.orderBox2-cashback {
+    margin: 6px 0px !important;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.035em;
+    color: rgba(42, 42, 42, 0.8);
+}
+
+
+.orderBox2-price {
+    position: relative;
+    right: 2rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: rgba(42, 42, 42, 0.6);
+}
+
+.orderBox2-discount {
+    position: relative;
+    right: 1.5rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.orderBox2-priceADIS {
+    position: relative;
+    right: 1rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2A2A2A;
+}
+
+.orderBox2-his{
+    position: relative;
+    right: 0.5rem;
+    bottom: 0.5rem;
+}
+
+.orderBox4-price{
+    position: relative;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: rgba(42, 42, 42, 0.6);
+}
+
+.orderBox4-discount {
+    position: relative;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.orderBox4-priceADIS {
+    position: relative;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2A2A2A;
+}
+
+.orderBox4-his {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.orderBox5-price{
+    position: relative;
+    right: 1.5rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: rgba(42, 42, 42, 0.6);
+}
+
+.orderBox5-discount {
+    position: relative;
+    right: 1.5rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.orderBox5-priceADIS {
+    position: relative;
+    right: 1rem;
+    bottom: 0.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2A2A2A;
+}
+
+.orderBox5-his {
+    right: 1rem;
+    position: relative;
+    bottom: 0.5rem;
+}

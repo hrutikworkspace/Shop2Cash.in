@@ -1,0 +1,290 @@
+.signup-image {
+  position: relative;
+  height: 100vh;
+}
+.signup-img {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.signup-image1 {
+  position: relative;
+  width: 100%;
+}
+.signup-header h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #2a2a2a;
+}
+.signup-header p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #2a2a2a;
+  text-decoration: underline;
+  margin-bottom: 3rem;
+}
+
+.signup-sub-header {
+  position: absolute;
+
+  left: 938px;
+  top: 184px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(0, 0, 0, 0.3);
+}
+.signup-input-name {
+  position: absolute;
+  width: 486px;
+  height: 48px;
+  left: 837px;
+  top: 246px;
+  border: none;
+  background: #f8f8f8;
+  box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03;
+  padding-left: 2rem;
+}
+.signup-input-email {
+  position: absolute;
+  width: 486px;
+  height: 48px;
+  left: 837px;
+  top: 342px;
+  border: none;
+  background: #f8f8f8;
+  box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  padding-left: 2rem;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+
+  color: rgba(0, 0, 0, 0.3);
+}
+.signup-input-pass {
+  position: absolute;
+  width: 486px;
+  height: 48px;
+  left: 837px;
+  top: 438px;
+  border: none;
+  background: #f8f8f8;
+  box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  padding-left: 2rem;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.3);
+}
+.signup-btn {
+  position: absolute;
+  width: 490px;
+  height: 48px;
+  left: 837px;
+  top: 550px;
+  border: none;
+  /* Main color 1 */
+  color: #ffffff;
+  background: #ee6000;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+.sign-up-or {
+  position: absolute;
+  width: 24px;
+  height: 19px;
+  left: 1065px;
+  top: 646px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(42, 42, 42, 0.6);
+}
+.signup-btn-2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 490px;
+  height: 48px;
+  left: 837px;
+  top: 743px;
+  background: #ffffff;
+  color: #ee6000;
+  border: 0.5px solid #ee6000;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+.signup-kling {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.signup-shop2cash {
+  top: 1rem;
+  left: 4rem;
+  position: absolute;
+  font-family: "Martel Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.signup-img4 {
+  position: absolute;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+  border-radius: 55.4796px;
+  top: 20rem;
+  left: 17rem;
+}
+.signup-img3 {
+  position: absolute;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+  border-radius: 64px;
+  top: 14rem;
+  left: 5rem;
+}
+.signup-img2 {
+  position: absolute;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+  border-radius: 61px;
+  top: 16rem;
+  left: 19rem;
+}
+.signup-img1 {
+  position: absolute;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+  border-radius: 33.6881px;
+  top: 5rem;
+  left: 15rem;
+}
+.sg-img1 {
+  width: 74%;
+}
+.sg-img2 {
+  width: 75%;
+}
+.sg-img3 {
+  width: 79%;
+}
+.sg-img4 {
+  width: 58%;
+}
+.signup-pass {
+  position: absolute;
+  margin: 13px 15px;
+}
+.padding-top-bottom1 {
+  /* padding: 3rem 0rem !important; */
+}
+
+@media (max-width: 426px) {
+  .signup-header h5 {
+    font-size: 35px !important;
+  }
+  .signup-header p {
+    font-size: 16px !important;
+  }
+}
+
+.sign-in-center {
+  position: relative;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  top: 5rem;
+}
+.sign-in-center img {
+  width: 60%;
+}
+
+@media (max-width: 767px) {
+  .signupimg{
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+    .signupimg1{
+        display: none;
+      }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .sign-in-center img {
+    width: 60vh !important;
+  }
+  .signup-header h5{
+    font-size:5vw;
+  }
+}
+
+@media (max-width:768px) and (min-width:425px){
+    .sign-in-center img {
+        width: 55vh !important;
+      }
+}
+
+@media (max-width:425px){
+    .sign-in-center img {
+        width: 50vh !important;
+      }
+}
+@media (max-width:767px){
+  .su-logo{
+    position: absolute;
+    top: 35rem;
+  }
+}
+@media (max-width:320px){
+  .signup-header h5 {
+    font-size: 30px !important;
+}
+}

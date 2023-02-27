@@ -1,0 +1,199 @@
+.swp1-img1{
+    background-image: url(/public/WinPopUp/win-rect.png);
+    
+    position: relative;
+}
+.qw{
+    width: 100%;
+}
+.win-img{
+    height: 550px;
+    width: 78%;
+    position: relative;
+    text-align: center;
+    margin-left: 12rem;
+}
+.win-pop-img{
+    position: absolute;
+    top: 8.2rem;
+    width: 22.6%;
+    text-align: center;
+    left: 47rem;
+}
+.win-main1{
+    position: absolute;
+    top: 27rem;
+    left: 54rem;
+}
+.win-text{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.025em;
+color: #FFFFFF;
+}
+.win-btn{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.025em;
+color: #FFFFFF;
+border:none;
+padding: 0.7rem 1.4rem;
+background: #2A2A2A;
+box-shadow: 2px 3px 6px rgba(255, 255, 255, 0.25);
+border-radius: 27px;
+}
+
+/* @media (min-width:1024px) and (max-width:1440px){
+    .win-pop-img{
+        left: 22rem;
+    top: 9rem;
+    width: 30%;
+    }
+    .win-main1{
+        top: 21rem;
+    left: 27rem;
+    }
+    .win-text{
+        font-size: 1.5rem;
+    }
+    .win-btn{
+        font-size: 1rem;
+    padding: 1rem 1rem;
+    }
+} */
+
+@media (min-width:320px) and (max-width:375px){
+    .win-pop-img{
+        left: 5rem;
+    top: 15rem;
+    width: 49%;
+    }
+    .win-main1{
+        top: 20rem;
+    left: 8rem;
+    }
+    .win-text{
+        font-size: 11px;
+    }
+    .win-btn{
+        font-size: 8px;
+    padding: 0rem 0.5rem;
+    }
+    .win-img{
+        height: 240px;
+        margin-left: 26px;
+    }
+} 
+@media (min-width:375px) and (max-width:425px){
+    .win-pop-img{
+        left: 7rem;
+    top: 15rem;
+    width: 49%;
+    }
+    .win-main1{
+        top: 22rem;
+    left: 11rem;
+    }
+    .win-text{
+        font-size: 11px;
+    }
+    .win-btn{
+        font-size: 8px;
+    padding: 0rem 0.5rem;
+    }
+    .win-img{
+        height: 265px;
+        margin-left: 3rem;
+    }
+} 
+
+@media (min-width:426px) and (max-width:768px){
+    .win-pop-img{
+        left: 16rem;
+    top: 0rem;
+    width: 44%;
+    height: 261px;
+    }
+    .win-main1{
+        top: 8rem;
+    left: 20rem;
+    }
+    .win-text{
+        font-size: 11px;
+    }
+    .win-btn{
+        font-size: 8px;
+    padding: 0rem 0.5rem;
+    }
+    .win-img{
+        height: 265px;
+    }
+    .win-img9{
+        position: relative;
+    left: -151px;
+    width: 100%;
+    }
+} 
+@media (min-width:768px) and (max-width:1040px){
+    .win-pop-img{
+        left: 24rem;
+    top: 0rem;
+    width: 34%;
+    height: 320px;
+    }
+    .win-main1{
+        top: 10rem;
+    left: 31rem;
+    }
+    .win-text{
+        font-size: 11px;
+    }
+    .win-btn{
+        font-size: 8px;
+    padding: 0rem 0.5rem;
+    }
+    .win-img{
+        height: 325px;
+    }
+    .win-img9{
+        position: relative;
+    left: -151px;
+    width: 100%;
+    }
+} 
+@media (min-width:1040px) and (max-width:1440px){
+    .win-pop-img{
+        left: 35rem;
+    top: 0rem;
+    width: 32%;
+    height: 427px;
+    }
+    .win-main1{
+        top: 14rem;
+    left: 42rem;
+    }
+    .win-text{
+        font-size: 15px;
+    }
+    .win-btn{
+        font-size: 11px;
+    padding: 0rem 1.5rem;
+    }
+    .win-img{
+        height: 430px;
+        margin-left: 17rem;
+    }
+    .win-img9{
+        position: relative;
+    left: -151px;
+    width: 100%;
+    }
+} 

@@ -1,0 +1,982 @@
+.sinImg{
+    width: 100%;
+    height: 100vh;
+}
+
+.signin-header h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2A2A2A;
+}
+.all-img{
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    top: 4%;
+}
+.si-facebookicon svg{
+    border-radius: 50%;
+    background-color: blue;
+}
+.signin-k{
+    position: absolute;
+    left: 18px;
+}
+.f-icon1{
+    color: blue;
+    border-radius: 50% !important;
+    margin-right: 1rem;
+    /* color: white; */
+}
+.signin-shop2{
+    position: absolute;
+    left: 64px;
+    top: 5px;
+    font-family: 'Martel Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.signin-new-img{
+    width: 100%;
+    background-color: #EE6000;
+    position: relative;
+    height: 100vh;
+}
+.f-img{
+    margin-top: -34rem;
+}
+.signin-header p{
+    color: #2a2a2a;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: .03em;
+    line-height: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.signin-header{
+    margin-bottom: 2rem;
+}
+.signin-sub-header{
+    position: absolute;
+/* width: 384px; */
+height: 22px;
+left: 168px;
+top: 182px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.03em;
+color: rgba(0, 0, 0, 0.3);
+}
+.signin-email{
+    position: absolute;
+width: 486px;
+height: 48px;
+left: 138px;
+top: 246px;
+border: none;
+background: #F8F8F8;
+box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.25), inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+border-radius: 9px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+padding-left: 2rem;
+letter-spacing: 0.03em;
+}
+/* .signin-icon{
+    
+} */
+.signin-pass{
+    position: absolute;
+width: 486px;
+height: 48px;
+left: 138px;
+top: 342px;
+border: none;
+background: #F8F8F8;
+box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.25), inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+border-radius: 9px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+padding-left: 2rem;
+letter-spacing: 0.03em;
+}
+
+.signin-check{
+    position: absolute;
+width: 147px;
+height: 19px;
+left: 147px;
+top: 404px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: rgba(42, 42, 42, 0.6);
+}
+.forgot-pass{
+
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+    position: absolute;
+width: 132px;
+height: 0px;
+left: 484px;
+top: 404px;
+color: rgba(42, 42, 42, 0.6);
+
+}
+.signin-btn-1{
+    position: absolute;
+width: 492px;
+height: 48px;
+left: 132px;
+top: 471px;
+border: none;
+color: #FFFFFF;
+background: #EE6000;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+.or{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(42, 42, 42, 0.6);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.signin-btn-g{
+    box-sizing: border-box;
+
+position: absolute;
+width: 492px;
+height: 48px;
+left: 132px;
+top: 586px;
+color: #FF6701;
+background: #FFFFFF;
+border: 1px solid #FF6701;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.signin-google{
+    padding-right: 1rem;
+}
+.fb-icon{
+    background-color: blue;
+    margin-right: 1rem;
+    border-radius: 40%;
+}
+.pass-icons{
+    position: absolute;
+    /* left: 14rem;
+    top: 1rem; */
+    margin: 10px 12px;
+}
+.sign-in-form{
+    line-height: 26px;
+}
+.signin-btn-f{
+    box-sizing: border-box;
+
+position: absolute;
+width: 492px;
+height: 48px;
+left: 132px;
+top: 664px;
+color: #FF6701;
+background: #FFFFFF;
+border: 1px solid #FF6701;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+}
+.signin-footer{
+    position: absolute;
+width: 234px;
+height: 19px;
+left: 261px;
+top: 784px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(42, 42, 42, 0.6);
+}
+.f-sign-up{
+    color: blue;
+}
+.signin-image{
+    /* background-color: #EE6000;
+    height: 50vh;
+    width: 50vh;
+    z-index: -1;
+    position: absolute;
+    min-width: 50vh;
+    min-height: 50vh; */
+    background-image: url(/public/mainImg.png);
+    background-color: #EE6000;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.signin-img{
+    width: 100%;
+    height: 70%;
+}
+.signin-kling{
+    /* position: absolute;
+width: 35.86px;
+height: 44.52px;
+left: 75px;
+top: 49px; */
+/* position: absolute; */
+    top: 22px;
+    left: 2%;
+}
+.signin-shop2cash{  
+    font-weight: 500;
+    display: flex;
+    font-size: 17px;
+    color: #EEEEEE;
+    padding-left: 0.7rem;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* top: 37px;
+    left: 7%; */
+/* padding-left: 1rem;
+padding-top: 2rem; */
+
+}
+.si-logo{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    /* display: flex; */
+    /* position: relative; */
+    display: flex;
+    justify-content: start;
+}
+.si-backimg{
+    /* position: relative; */
+}
+.signin-img1{
+    /* position: absolute;
+width: 100%;
+height: 100%;
+left: 100px;
+top: 160px; */
+/* padding-left: 9rem; */
+/* background: url(), #D9D9D9; */
+position: absolute;
+
+box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+border-radius: 33.6881px;
+width: 29%;
+top:8rem;
+left: 20rem;
+}
+.signin-img2{
+    /* position: absolute;
+    width: 301px;
+    height: 484px;
+    left: 225px;
+    top: 429px; */
+    /* margin-left: 15rem; */
+    /* height: 253px; */
+    /* margin-top: 14rem; */
+    /* background: url(.jpg), #D9D9D9; */
+    position: absolute;
+    width: 34%;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+    border-radius: 64px;
+    top:29rem;
+left: 24rem;
+}
+.signin-img3{
+    /* position: absolute;
+width: 0px;
+height: 219px;
+left: 280px;
+top: 257px; */
+
+/* margin-top: 7rem; */
+    width: 41%;
+    position: absolute;
+box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+border-radius: 61px;
+    top:19rem;
+left: 32rem;
+}
+.signin-img4{
+    /* position: absolute;
+width: 321px;
+height: 200px;
+left: 30px;
+top: 413px; */
+position: absolute;
+box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+border-radius: 55.4796px;
+width: 37%;    
+    top:23rem;
+left: 12rem;
+}
+/* .i1{
+    width: 80%;
+}
+.i3{
+    width: 79%;
+}
+.i4{
+    width: 86%;
+}
+.i2{
+    width: 60%;
+} */
+
+.input-icons2 i {
+    position: absolute;
+}
+  
+.input-icons2 {
+    width: 100% !important;
+    /* margin-bottom: 10px; */
+    position: relative;
+}
+  
+.icon4 {
+    padding: 15px 15px;
+    min-width: 40px;
+}
+  
+.input-field1 {
+    width: 60% !important;
+    padding: 9px 45px !important;
+    /* text-align: center; */
+    background: #F8F8F8;
+    box-shadow: inset -1px -1px 4px rgb(0 0 0 / 25%), inset 1px 1px 2px rgb(0 0 0 / 20%);
+    border-radius: 13px;
+    border: none;
+    margin: 0 0px !important;
+    
+}
+.input-margin1{
+    margin-bottom: 1.5rem !important;
+}
+
+form{
+    text-align: center;
+}
+
+input::placeholder{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* text-align: center; */
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.3);
+}
+
+.form-group{
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+.margin-lr{
+    margin: 0 50px;
+}
+/* .custom-control{
+    margin-right: 12.5rem;
+} */
+.custom-control input{
+    height: 50%;
+    margin-right: 5px;
+}
+
+.forgot a{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(42, 42, 42, 0.6);
+}
+
+.custom-control label{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(42, 42, 42, 0.6);
+}
+
+.sign
+
+.signin-btn{
+    margin-top: 2.5rem;
+}
+
+.signin-btn button{
+    background: #EE6000;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 13px;
+    border: none;
+    /* padding: 0.5rem 12.2rem; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 9px 45px;
+    width: 60%;
+}
+
+.g-btn button{
+    background: #FFFFFF;
+    border: 1px solid #FF6701;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 13px;
+    /* padding: 0.5rem 9rem; */
+    margin-bottom: 1.5rem;
+    /* margin-top: 2.5rem; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FF6701;
+    padding: 8px 45px;
+    width: 60%;
+}
+.f-btn button{
+    background: #FFFFFF;
+    border: 1px solid #FF6701;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 13px;
+    /* padding: 0.5rem 8.5rem; */
+    margin-bottom: 1.25rem;
+    /* margin-top: 2.5rem; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FF6701;
+    padding: 8px 45px;
+    width: 60%;
+}
+.no-account span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: rgba(42, 42, 42, 0.6);
+}
+.no-account a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: black;
+}
+
+.no-account{
+    /* margin-top: 2.5rem; */
+}
+
+.g-btn i{
+    color: black;
+}
+
+.f-btn i{
+    color: black;
+}
+
+.overflow-class{
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+}
+.padding-top-bottom1{
+    padding-top: 1.75rem;
+    /* padding: 2rem 0rem !important; */
+}
+  
+
+.img-big{
+    background-image: url("/public/image-new.png");
+    height: 100vh; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size:cover;
+  position: relative;
+}
+.si-images{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+@media (min-width: 1024px){
+    .display-none{
+        display: none;
+    }
+      }
+      
+          
+
+      @media (max-width: 426px){
+        .g-btn button{
+            width: 85% !important;
+        }
+        .f-btn button{
+            width: 85% !important;
+        }
+        .signin-btn button{
+            width: 85% !important;
+        }
+        .input-field1{
+            width: 85% !important;
+        }
+        .signin-header h5{
+            font-size: 40px !important;
+        }
+        .signin-header p{
+            font-size: 14px !important;
+        }
+        .signin-img1{
+            width: 69%;
+    padding-left: 7rem;
+        }
+        .signin-img3{
+            width: 44%;
+    margin-left: 11rem;
+    margin-top: -6rem;
+        }
+        .signin-img2{
+            width: 33%;
+    padding-top: 5rem;
+    margin-left: 8rem;
+        }
+        .signin-img4{
+            margin-left: 1rem;
+            width: 54%;
+            margin-top: -5rem;
+        }
+        .signin-image{
+            height: 104vh;
+        }
+          }
+
+          @media (max-width:630px) and (min-width:426px) {
+            .signin-img1{
+                width: 52%;
+                padding-left: 7rem;
+            }
+            .signin-img3{
+                width: 44%;
+    margin-left: 14rem;
+    
+    margin-top: -6rem;
+            }
+            .signin-img2{
+                width: 31%;
+    padding-top: 3rem;
+    margin-left: 11rem;
+            }
+            .signin-img4{
+                margin-left: 1rem;
+    width: 45%;
+    margin-top: -5rem;
+            }
+            .signin-image{
+                height: 104vh;
+            }
+          }
+
+@media (min-width:1840px){
+    .padding-top-bottom1{
+       position: relative;
+    /* top: 200px; */
+    }
+}
+@media (min-width:992px){
+    .padding-top-bottom1{
+       position: relative;
+    top: 25;    
+    }   
+    
+}
+@media (max-width:992px){
+    
+    .logo{
+        position: absolute;
+    top: 67%;
+    }
+   
+}
+
+.sign-in-center{
+    position: relative;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    top: 5rem;
+}
+.sign-in-center img{
+    width: 60%;
+}
+
+/* @media (min-width:320px) and (max-width:375px){
+    .sign-in-center img{
+        width: 81% !important;
+    position: relative;
+    top: 0rem;
+    }
+}
+
+@media (min-width:375px) and (max-width:425px){
+    .sign-in-center img{
+        width: 73% !important;
+        position: relative;
+        top: -2rem;
+    }
+}
+
+@media (min-width:425px) and (max-width:525px){
+    .sign-in-center img{
+        width: 60% !important;
+        position: relative;
+        top: -2rem;
+    }
+}
+
+@media (min-width:525px) and (max-width:600px){
+    .sign-in-center img{
+        width: 53% !important;
+        position: relative;
+        top: -2rem;
+    }
+}
+@media (min-width:600px) and (max-width:650px){
+    .sign-in-center img{
+        width: 53% !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+
+@media (min-width:650px) and (max-width:700px){
+    .sign-in-center img{
+        width: 50% !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+
+@media (min-width:700px) and (max-width:768px){
+    .sign-in-center img{
+        width: 41% !important;
+    position: relative;
+    top: -2rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:820px){
+    .sign-in-center img{
+        width: 41% !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+@media (min-width:820px) and (max-width:880px){
+    .sign-in-center img{
+        width: 41% !important;
+        position: relative;
+        top: -3rem;
+    }
+}
+@media (min-width:880px) and (max-width:935px){
+    .sign-in-center img{
+        width: 36% !important;
+        position: relative;
+        top: -3rem;
+    
+    }
+}
+
+@media (min-width:935px) and (max-width:991px){
+    .sign-in-center img{
+        top: -3rem;
+        width: 32% !important;
+        position: relative;
+    
+    }
+}
+@media (min-width:992px){
+    .sign-in-center img{
+        top: -2rem;
+        width: 60vh !important;
+        position: relative;
+    
+    }
+} */
+
+
+
+
+@media (max-width:991px){
+    .padding-top-bottom1 {
+       
+         padding: 2rem 0rem !important;
+    }
+} 
+
+@media (max-width:767px){
+    .hello{
+        display: none !important;
+    }
+}
+@media (min-width:768px){
+    .hello1{
+        display: none !important;
+    }
+}
+
+.si-logo {
+    top: 0rem;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+@media (min-width:1700px){
+    .padding-top-bottom1 {
+        padding: 7rem 0rem !important;
+    }
+    .input-margin1 {
+        margin-bottom: 2.5rem !important;
+    }
+    .input-field1 {
+      
+        padding: 12px 45px !important;
+    }
+
+    .form-group {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .signin-btn button{
+        padding: 12px 45px;
+    }
+    .g-btn button{
+        font-size: 18px;
+        padding: 12px 45px;
+        margin-bottom: 2rem;
+    }
+    .f-btn button{
+        font-size: 18px;
+        padding: 12px 45px;
+        margin-bottom: 4rem;
+    }
+  
+}
+
+@media (max-width:320px){
+    .sinImg {
+        width: 100%;
+        height: 85vh;
+    }
+    .signin-header h5 {
+        font-size: 37px !important;
+    }
+    .signin-header p {
+        font-size: 12px !important;
+    }
+    .f-btn button {
+        padding: 8px 45px; 
+    }
+    .g-btn button {
+        padding: 8px 45px; 
+    }
+    .si-logo {
+        padding-left: 1rem;
+        padding-top: 1rem;
+       }
+       .signin-shop2cash {
+        font-size: 14px;
+       }
+       .signin-shop2cash {
+        width: 22vw;
+       }
+       .signin-kling {
+        width: 9vw;
+       }
+}
+
+@media (min-width:320px) and (max-width:375px){
+    .sinImg {
+        width: 100%;
+        height: 85vh;
+    }
+    .si-logo {
+        padding-left: 1rem;
+        padding-top: 1rem;
+       }
+}
+@media (min-width:375px) and (max-width:425px){
+    .sinImg {
+        width: 100%;
+        height: 90vh;
+    }
+    .si-logo {
+        padding-left: 1rem;
+        padding-top: 1rem;
+       }
+}
+@media (min-width:425px) and (max-width:768px){
+    .sinImg {
+        width: 100%;
+        height: 100vh;
+    }
+    .si-logo {
+        padding-left: 1.2rem;
+        padding-top: 1.2rem;
+       }
+}
+@media (min-width:768px) and (max-width:1700px){
+    .g-btn button {
+        padding: 10px 45px;
+        margin-bottom: 2rem;
+    }
+    .f-btn button {
+        margin-bottom: 4rem;
+        padding: 10px 45px;
+    }
+    .form-group {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .input-field1 {
+        
+        padding: 10px 45px !important;
+    }
+    .input-margin1 {
+        margin-bottom: 1.5rem !important;
+    }
+    .sinImg {
+        width: 100%;
+        height: 100vh;
+    }
+    .si-logo {
+        padding-left: 1.2rem;
+        padding-top: 1.2rem;
+       }
+       .padding-top-bottom1 {
+        padding: 2rem 0rem !important;
+    }
+    .f-btn button{
+        margin-bottom: 2rem;
+    }
+}
+@media (min-width:768px) and (max-width:920px){
+    .f-btn button{
+        padding: 8px 22px;
+    }
+    .g-btn button{
+        padding: 8px 22px;
+    }
+
+}
+
+.hello{
+    height: 95vh;
+    
+}

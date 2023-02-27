@@ -1,0 +1,36 @@
+.suppg1-c1 {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 3rem;
+}
+.card {
+  background: #ffffff;
+  box-shadow: 0px 1px 8px rgba(238, 96, 0, 0.3);
+  border-radius: 48px;
+}
+.card a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+}
+.supg1-i2 {
+  color: #ee6000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  font-size: 60px;
+}
+.suppg1-card {
+  padding-bottom: 1rem;
+}
+.suppg-1-card-body {
+  flex: 1 1 auto;
+  padding: 3.5rem 1rem;
+}

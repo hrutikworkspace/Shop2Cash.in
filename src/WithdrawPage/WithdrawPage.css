@@ -1,0 +1,165 @@
+
+.main-withdrawBox {
+    box-sizing: border-box;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EE6000;
+    border-radius: 48px;
+}
+
+.with-v-line .vl{
+    height: 31.5rem;
+    /* margin: -14rem 31rem; */
+    top: 431px;
+    position: absolute;
+}
+.withdrawBox-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.035em;
+    color: #2A2A2A;
+    padding: 32px 50px;
+}
+
+.withdrawBox-1line {
+    border: 1px solid darkgray;
+}
+
+.Box-1Line {
+    padding-top: 1rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #2A2A2A;
+}
+
+.Box-2Line {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: -2%;
+    letter-spacing: 0.035em;
+    color: #2A2A2A;
+}
+
+.Box-3Line {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: -2%;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    color: #2A2A2A;
+}
+
+.Box-4Line {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    /* line-height: 1px; */
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #2A2A2A;
+    padding-bottom: 1rem;
+}
+
+
+
+.button {
+    flex-direction: row;
+    padding: 12px 16px;
+    gap: 8px;
+    background: #EE6000;
+    border-radius: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+}
+@media (max-width: 468px){
+    .Box-2Line{
+        font-size: 12px;
+    }
+    .Box-4Line{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px){
+    .withdrawBox-b{
+        border-bottom: 1px solid lightgray;
+    }
+    
+}
+@media (max-width:767px){
+    .with-v-line .vl{
+        display: none;
+    }
+}
+@media (min-width:767px) and (max-width:931px){
+    .with-v-line .vl{
+        top: 71rem;
+        height: 33rem;
+    }
+}
+@media (min-width:931px) and (max-width:992px){
+    .with-v-line .vl{
+        top: 71rem;
+        height: 31.5rem;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .with-v-line .vl{
+        top: 62.7rem;
+    }
+}
+@media (min-width:1200px) and (max-width:1223px){
+    .with-v-line .vl{
+        top: 26.8rem;
+        height: 33.2rem;
+    }
+}
+@media (min-width:1223px) and (max-width:1500px){
+    .with-v-line .vl{
+        top: 26.7rem;
+    }
+}
+@media (min-width: 1500px) and (max-width:1600px){
+    .with-v-line .vl{
+        height: 31rem;
+    }
+}
+@media (min-width: 1600px) and (max-width:1800px){
+    .with-v-line .vl{
+        height: 31rem;
+    }
+}
+@media (min-width: 1800px) and (max-width:2100px){
+    .with-v-line .vl{
+        height: 30rem;
+    }
+}
+@media (min-width: 2100px) and (max-width:2500px){
+    .with-v-line .vl{
+        height: 30rem;
+    }
+}

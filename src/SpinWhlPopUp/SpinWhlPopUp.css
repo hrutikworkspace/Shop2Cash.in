@@ -1,0 +1,385 @@
+.swp1-rect {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4.5px);
+  border-radius: 90px;
+}
+.swp1-img {
+  position: relative;
+  background-color: #7f536e;
+  border-radius: 30px;
+}
+.swp1-main {
+  position: absolute;
+  top: 55%;
+  left: 44%;
+}
+.swp1-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+.swp1-btn {
+  background: #2a2a2a;
+  box-shadow: 2px 3px 6px rgba(255, 255, 255, 0.25);
+  border-radius: 27px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+@media (max-width: 320px) {
+  .swp1-main {
+  }
+  .swp1-text {
+    font-size: 10px;
+  }
+  .swp1-btn {
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .swp1-text {
+    font-size: 7px;
+  }
+  .swp1-btn {
+    padding: 0px 0px;
+    font-size: 7px;
+  }
+  .swp1-main {
+  }
+  .swp1-rect {
+    border-radius: 38px;
+  }
+  .swp1-img img {
+    width: 56%;
+  }
+}
+@media (max-width: 425px) and (min-width: 375px) {
+  .swp1-text {
+    font-size: 8px;
+  }
+  .swp1-btn {
+    font-size: 8px;
+    padding: 2px 2px;
+  }
+
+  .swp-p {
+  }
+  .swp1-main {
+  }
+  .swp1-rect {
+    border-radius: 38px;
+  }
+}
+@media (max-width: 768px) and (min-width: 425px) {
+  .swp1-text {
+    font-size: 10px;
+  }
+  .swp1-btn {
+    font-size: 8px;
+    padding: 2px 2px;
+  }
+  .swp-p {
+  }
+  .swp1-main {
+  }
+  .swp1-rect {
+    border-radius: 38px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .swp1-text {
+    font-size: 19px;
+  }
+  .swp1-btn {
+    margin-top: 2rem;
+    padding: 9px 7px;
+    font-size: 17px;
+  }
+  .swp-p {
+    margin-top: -2rem;
+  }
+  .swp1-rect {
+    border-radius: 38px;
+  }
+}
+@media (min-width: 950px) and (max-width: 1130px) {
+  .swp1-main {
+    position: absolute;
+    top: 52%;
+    left: 43%;
+  }
+  .swp1-btn {
+    padding: 9px 7px;
+    font-size: 17px;
+  }
+  .swp1-text {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1130px) and (max-width: 1350px) {
+  .swp1-main {
+    position: absolute;
+    top: 55%;
+    left: 44%;
+  }
+  .swp1-btn {
+    padding: 9px 7px;
+    font-size: 17px;
+  }
+  .swp1-text {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1350px) and (max-width: 1550px) {
+  .swp1-main {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+  }
+  .swp1-btn {
+    padding: 9px 7px;
+    font-size: 17px;
+  }
+  .swp1-text {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1550px) and (max-width: 1900px) {
+  .swp1-main {
+    position: absolute;
+    top: 55%;
+    left: 46%;
+  }
+  .swp1-btn {
+    padding: 9px 7px;
+    font-size: 20px;
+  }
+  .swp1-text {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2200px) {
+  .swp1-main {
+    position: absolute;
+    top: 55%;
+    left: 46%;
+  }
+  .swp1-btn {
+    padding: 9px 7px;
+    font-size: 22px;
+  }
+  .swp1-text {
+    font-size: 24px;
+  }
+}
+@media (min-width: 2200px) {
+  .swp1-main {
+    position: absolute;
+    top: 55%;
+    left: 46%;
+  }
+  .swp1-btn {
+    padding: 9px 7px;
+    font-size: 28px;
+  }
+  .swp1-text {
+    font-size: 30px;
+  }
+  .swp-p {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .swp1-main {
+    position: absolute;
+    top: 44%;
+    left: 41%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 5px;
+  }
+  .swp1-text {
+    font-size: 7px;
+    margin-bottom: 0px !important;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .swp1-main {
+    position: absolute;
+    top: 44%;
+    left: 41%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 5.5px;
+  }
+  .swp1-text {
+    font-size: 7px;
+    margin-bottom: 0px !important;
+    line-height: 17px;
+  }
+}
+@media (min-width: 376px) and (max-width: 400px) {
+  .swp1-main {
+    position: absolute;
+    top: 44%;
+    left: 42.5%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 5.5px;
+  }
+  .swp1-text {
+    font-size: 7px;
+    margin-bottom: 0px !important;
+    line-height: 17px;
+  }
+}
+@media (min-width: 401px) and (max-width: 450px) {
+  .swp1-main {
+    position: absolute;
+    top: 44%;
+    left: 43%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 6px;
+  }
+  .swp1-text {
+    font-size: 7.5px;
+    margin-bottom: 0px !important;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 500px) {
+  .swp1-main {
+    position: absolute;
+    top: 48%;
+    left: 43%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 7px;
+  }
+  .swp1-text {
+    font-size: 8.5px;
+    margin-bottom: 0px !important;
+    line-height: 17px;
+  }
+}
+@media (min-width: 501px) and (max-width: 580px) {
+  .swp1-main {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 8px;
+  }
+  .swp1-text {
+    font-size: 9.5px;
+    margin-bottom: 7px !important;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 581px) and (max-width: 660px) {
+  .swp1-main {
+    position: absolute;
+    top: 50%;
+    left: 43.8%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 9px;
+  }
+  .swp1-text {
+    font-size: 10.5px;
+    margin-bottom: 10px !important;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 661px) and (max-width: 730px) {
+  .swp1-main {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 10px;
+  }
+  .swp1-text {
+    font-size: 11.5px;
+    margin-bottom: 10px !important;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 731px) and (max-width: 800px) {
+  .swp1-main {
+    position: absolute;
+    top: 52%;
+    left: 44%;
+  }
+  .swp1-btn {
+    padding: 0px 6px;
+    font-size: 11px;
+  }
+  .swp1-text {
+    font-size: 12.5px;
+    margin-bottom: 12px !important;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 880px) {
+  .swp1-main {
+    position: absolute;
+    top: 54%;
+    left: 44%;
+  }
+  .swp1-btn {
+    padding: 0px 8px;
+    font-size: 12px;
+  }
+  .swp1-text {
+    font-size: 13.5px;
+    margin-bottom: 13px !important;
+    line-height: 17px;
+  }
+}
+@media (min-width: 881px) and (max-width: 949px) {
+  .swp1-main {
+    position: absolute;
+    top: 54%;
+    left: 43%;
+  }
+  .swp1-btn {
+    padding: 3px 10px;
+    font-size: 15px;
+  }
+  .swp1-text {
+    font-size: 15.5px;
+    margin-bottom: 15px !important;
+    line-height: 17px;
+  }
+}

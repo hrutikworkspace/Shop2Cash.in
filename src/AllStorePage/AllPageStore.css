@@ -1,0 +1,153 @@
+.allstr-card-head{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 1200px){
+    .padding-bottom-check{
+      padding-bottom: 1.5rem !important;
+    }
+      }
+.allstr-filter{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2A2A2A;
+}
+.allstr-clear{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: rgba(42, 42, 42, 0.6);
+}
+.allstr-search{
+    box-sizing: border-box;
+    background: #FFFFFF;
+border: 1px solid #EE6000;
+border-radius: 18px;
+
+
+}
+.allstr-categry{
+    
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #2A2A2A;
+padding: 1rem 3rem;
+}
+.allstr-menu{
+    line-height: 36px;
+  
+    padding: 1rem 3rem;
+}
+.allstr-box{
+    box-sizing: border-box;
+    background: #FFFFFF;
+border: 1.5px solid rgba(42, 42, 42, 0.8);
+border-radius: 3px;
+}
+.allstr-textmenu{
+    margin-bottom: 10px;
+   
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+letter-spacing: 0.035em;
+color: #2A2A2A;
+}
+.allstr-icon{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.allstr-title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.allstr-cb{
+    padding-top: 32px;
+   
+}
+.allstr-body{
+    text-align: center;
+}
+.allstr-title1{
+    width: 100%;
+    font-size: 20px;
+}
+.allstr-ac{
+    padding: 0px 6px 0px;
+    padding-bottom: 1rem;
+}
+.aligning-txt{
+    display: flex !important;
+    min-height: 2rem !important;
+   
+    margin-bottom: .125rem;
+}
+.nav-item{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center !important;
+    
+}
+
+.input-icon2 i {
+    position: absolute;
+}
+.input-icon2 {
+    width: 0 !important;
+    
+}
+  
+.icon2 {
+    padding: 15px 15px;
+    min-width: 40px;
+}
+.p-whole{
+    padding: 40px 30px;
+}
+.asp-category form{
+    width: 90%;
+}
+.allstr-menu div{
+  justify-content: left;
+  padding-left: 0;
+}
+
+
+@media (max-width:356px){
+    .allstr-textmenu{
+
+    }
+}
+
+
+@media (min-width:1700px) {
+    .Allstorewidth1{
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    
+    .Allstorewidth{
+        flex: 0 0 auto;
+        width: 80%;
+    }
+}
+
+.cardBodySide {
+    padding: 2rem 1rem;
+}

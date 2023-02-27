@@ -1,0 +1,106 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: space-between !important;
+    }
+    }
+    .bg-orange-new{
+        background: #EE6000 !important;
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: transparent !important;
+        border-color: saddlebrown !important;
+    }
+    
+    @media only screen and (max-width: 991px){
+        .input-check2{
+            width: 100% !important;
+        }
+        .icon-text {
+            padding-bottom: 1rem !important;
+        }
+        ul li a{
+            padding: 15px 15px !important;
+            text-align: center !important;
+        }
+        .icon-align{
+            justify-content: center !important;
+        }
+    }
+    @media (max-width:992px){
+        .hidden2{
+            display: none;
+        }
+    }
+    .active-link .active{
+        color: green;
+        /* background-color: #FFFFFF; */
+    }
+    .active-link a{
+        color: white;
+    }
+    .active-link a:hover{
+
+    }
+    .icon-text a{
+        font-family: 'Martel Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 10px;
+        margin-right: 40px;
+        text-decoration: none;
+    }
+    
+    .input-check2{
+        display: block;
+        width: 450px;
+        padding: 9px 45px !important;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        background: #FFFFFF;
+        border: 1px solid #EE6000;
+        border-radius: 18px;
+        /* appearance: none; */
+        /* border-radius: .25rem; */
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    
+    .right-side-text{
+        font-family: 'Lato' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    /* text-align: center; */
+    
+    color: #FFFFFF !important;
+    }
+    .icon-align{
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+    }
+    
+    .input-icon i {
+        position: absolute;
+    }
+    .input-icon {
+        width: 0 !important;
+        /* margin-bottom: 10px; */
+    }
+      
+    .icons {
+        padding: 15px 15px;
+        min-width: 40px;
+    }

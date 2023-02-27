@@ -1,0 +1,224 @@
+.myAccount {
+  box-sizing: border-box;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  border: 1px solid #ee6000;
+  border-radius: 48px;
+}
+@media (max-width: 1199px) {
+  .all-side1 {
+    text-align-last: center !important;
+  }
+  .padding-bottom-check {
+    padding-bottom: 1.5rem !important;
+  }
+}
+.myAccount-img {
+  text-align: center;
+}
+.myAccount-img img {
+  margin-top: 3rem;
+}
+
+.myAccount-edit {
+  margin-top: 1rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: black !important;
+}
+
+.myAccount-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2a2a2a;
+  margin-top: 0.99rem;
+}
+.all-side1 {
+  text-align-last: start;
+}
+.myAccout-accicon {
+  /* padding-left: 4.5rem; */
+  font-family: "Lato";
+  font-style: normal;
+  margin-top: 0.5rem;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+}
+
+.myAccout-widrwicon {
+    margin-top: 0.5rem;  
+    /* padding-left: 4.5rem; */
+  /* margin-right: 1rem; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+}
+
+.myAccout-hisicon {
+    margin-top: 0.5rem;  
+    /* padding-left: 4.5rem; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+}
+
+.myAccout-reficon {
+    margin-top: 0.5rem;  
+    /* padding-left: 4.5rem; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+}
+
+.myAccout-suppicon {
+    margin-top: 0.5rem;
+  /* padding-left: 4.5rem; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+}
+
+.myAccount a {
+  text-decoration: none;
+}
+
+
+
+.sa-all-side1 .active {
+  color: #2a2a2a;
+  background: rgba(252, 236, 221, 0.8) !important;
+  width: 100% !important;
+}
+.sa-all-side1 a {
+  color: #2a2a2a;
+}
+.sa-all-side1 a:hover {
+  color: #2a2a2a;
+}
+.asdf .active {
+  color: green;
+}
+.myAccout-payicon {
+    margin-top: 0.5rem;
+  /* padding-left: 4.5rem; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2a2a2a;
+}
+
+@media (max-width: 320px) {
+  .myAccout-accicon {
+    padding-left: 0rem;
+    padding-right: 5rem;
+  }
+  .myAccout-hisicon {
+    padding-left: 0rem;
+    padding-right: 4.4rem;
+  }
+  .myAccout-payicon {
+    padding-left: 0rem;
+    padding-right: 3rem;
+  }
+  .myAccout-reficon {
+    padding-left: 0rem;
+    padding-right: 4.5rem;
+  }
+  .myAccout-suppicon {
+    padding-left: 0rem;
+    padding-right: 7rem;
+  }
+  .myAccout-widrwicon {
+    padding-left: 0rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 321px) {
+  .myAccout-accicon {
+    padding-left: 0rem;
+    padding-right: 5rem;
+  }
+  .myAccout-hisicon {
+    padding-left: 0rem;
+    padding-right: 4.4rem;
+  }
+  .myAccout-payicon {
+    padding-left: 0rem;
+    padding-right: 3rem;
+  }
+  .myAccout-reficon {
+    padding-left: 0rem;
+    padding-right: 4.5rem;
+  }
+  .myAccout-suppicon {
+    padding-left: 0rem;
+    padding-right: 7rem;
+  }
+  .myAccout-widrwicon {
+    padding-left: 0rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .all-side1 div {
+    text-align-last: center;
+    /* display: flex;
+        justify-content: center; */
+  }
+  .myAccout-accicon {
+    padding-left: 0rem;
+    padding-right: 5rem;
+  }
+  .myAccout-hisicon {
+    padding-left: 0rem;
+    padding-right: 4.4rem;
+  }
+  .myAccout-payicon {
+    padding-left: 0rem;
+    padding-right: 3rem;
+  }
+  .myAccout-reficon {
+    padding-left: 0rem;
+    padding-right: 4.5rem;
+  }
+  .myAccout-suppicon {
+    padding-left: 0rem;
+    padding-right: 7rem;
+  }
+  .myAccout-widrwicon {
+    padding-left: 0rem;
+    padding-right: 6rem;
+  }
+}

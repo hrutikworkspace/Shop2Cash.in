@@ -1,0 +1,354 @@
+
+.cb-rext-1{
+    border: 1px solid #EE6000;
+    border-radius: 80px;
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-bottom: 4rem;
+}
+.cb-head-img {
+    width: 100%;
+}
+.cashback-vl{
+    border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+        height: 115px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3rem;
+        margin-top: -5.5rem;
+}
+.cb-btn1{
+    background: #EE6000;
+box-shadow: 2px 2px 4px rgba(238, 96, 0, 0.2);
+border-radius: 18px;
+border: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+padding: 1rem 1rem !important;
+}
+.cb-btn1{
+    padding: 1rem 1rem;
+}
+.cb-rect2{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid #EE6000;
+    border-radius: 72px;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 3rem auto;
+    /* display: inline-block; */
+    /* padding: 2rem 0rem; */
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+.cb-round-1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4.5rem;
+}
+.playgamebtn{
+    text-align: center;
+    padding-top: 2rem;
+}
+.playgamebtn button{
+    background: #FFFFFF;
+    border: 0.5px solid #EE6000;
+    box-shadow: 2px 2px 4px rgb(238 96 0 / 20%);
+    border-radius: 18px;
+    padding: 13px 25px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #EE6000;
+}
+
+.cb-round-1::after{
+    content: "";
+    position: relative;
+    left: -50%;
+    
+   
+    border-left: 2px dotted #444;
+}
+.cb-round-1 p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+padding-top: 1rem;
+color: #000000;
+}
+.cb-round-2{
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+}
+.cb-round-2 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    padding-top: 1rem;
+    color: #000000;
+}
+.cb-vl{
+
+}
+.justify{
+    text-align: justify !important;
+  text-justify: inter-word !important;
+}
+.paragraph{
+    text-align: center !important;
+  /* max-width: 220px; */
+  word-wrap: break-word !important;
+  word-break: break-all !important;
+}
+.line{
+    height: 50%;
+    margin-left: 2rem;
+}
+@media (max-width:426px) {
+    .playgamebtn button{
+        padding: 10px 10px;
+        font-size: 4vw;
+
+    }
+    .cashback-vl{
+        margin: -90px -30px;
+    height: 118px;
+    }
+    .cb-rext-1{
+        border-radius: 30px;
+        padding-bottom: 2rem;
+       
+    }
+    .cb-rect2{
+        border-radius: 30px;
+        width: 80%;
+    }
+
+    .pt-5{
+     width: 60% ;
+     padding-top: 1rem !important;
+    }
+    .pb-3{
+     padding-top: 1.5rem;
+    }
+
+    .cb-btn1{
+        font-size:3vw;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .cb-head-img{
+        height: 50px;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+   
+}
+@media (min-width:426px) and (max-width:768px){
+    .playgamebtn button{
+        padding: 15px 15px;
+        font-size: 3vw;
+
+    }
+    .cashback-vl{
+        margin: -90px -29px;
+    height: 118px;
+    }
+    .cb-rext-1{
+        border-radius: 30px;
+        padding-bottom: 2rem;
+    }
+    .cb-rect2{
+        border-radius: 30px;
+        /* width: 60%; */
+    }
+
+    .cb-head-img{
+        height: 50px;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    .pt-5{
+        width: 60% ;
+        padding-top: 1rem !important;
+       }
+       .pb-3{
+        padding-top: 1.5rem;
+       }
+   
+       .cb-btn1{
+           font-size:2.5vw;
+           padding: 0.5rem 0.5rem;
+       }
+   
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .playgamebtn button{
+        padding: 15px 20px;
+        font-size: 2vw;
+
+    }
+    .cb-rext-1{
+        border-radius: 42px;
+        padding-bottom: 2.5rem;
+    }
+    .cb-rect2{
+        border-radius: 42px;
+    }
+    .cashback-vl{
+        margin: -90px -30px;
+    height: 118px;
+    }
+    .cb-head-img{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    .pt-5{
+        width: 55% ;
+        padding-top: 1.5rem !important;
+       }
+       .pb-3{
+        padding-top: 2rem;
+       }
+   
+       .cb-btn1{
+           font-size:2vw;
+           padding: 0.5rem 0.5rem;
+       }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    .playgamebtn button{
+        padding: 15px 20px;
+        font-size: 1.8vw;
+
+    }
+
+    .cb-rext-1{
+        border-radius: 57px;
+        padding-bottom: 3rem;
+    }
+    .cb-rect2{
+        border-radius: 57px;
+    }
+
+    .cb-head-img{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .pt-5{
+        width: 50% ;
+        padding-top: 2rem !important;
+       }
+       .pb-3{
+        padding-top: 3rem;
+       }
+   
+       .cb-btn1{
+           font-size:1.5vw;
+           padding: 0.5rem 0.5rem;
+       }
+       .cashback-vl{
+        margin: -92px -29px;
+    height: 118px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+
+    .playgamebtn button{
+        padding: 15px 20px;
+        font-size: 1.5vw;
+
+    }
+    .cashback-vl{
+        margin: -90px -30px;
+    height: 118px;
+    }
+
+    .cb-rext-1{
+        border-radius: 69px;
+        padding-bottom: 3.5rem;
+    }
+    .cb-rect2{
+        border-radius: 69px;
+    }
+    .cb-head-img{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .pt-5{
+        width: 45% ;
+        padding-top: 2.5rem !important;
+       }
+       .pb-3{
+        padding-top: 3.5rem;
+       }
+   
+       .cb-btn1{
+           font-size:1.3vw;
+           padding: 0.5rem 0.5rem;
+       }
+}
+
+@media (min-width:1400px) {
+    .playgamebtn button{
+        padding: 15px 20px;
+        font-size: 1.3vw;
+
+    }
+    .cb-rext-1{
+        border-radius: 78px;
+        padding-bottom: 4rem;
+    }
+    .cb-rect2{
+        border-radius: 78px;
+    }
+
+    .cb-head-img{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .pt-5{
+        width: 40% ;
+        padding-top: 3.5rem !important;
+       }
+       .pb-3{
+        padding-top: 4.5rem;
+       }
+   
+       .cb-btn1{
+           font-size:1.1vw;
+           padding: 0.5rem 0.5rem;
+       }
+       .cashback-vl{
+        margin: -90px -29px;
+    height: 118px;
+       }
+}
+
+.cb-vamz{
+    color: black;
+}
