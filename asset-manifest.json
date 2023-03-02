@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Shop2Cash.in/static/css/main.55bbe840.css",
+    "main.js": "/Shop2Cash.in/static/js/main.45b70805.js",
+    "static/js/787.bfb690a5.chunk.js": "/Shop2Cash.in/static/js/787.bfb690a5.chunk.js",
+    "static/media/mainImg.png": "/Shop2Cash.in/static/media/mainImg.558ab6762804655dfb1f.png",
+    "static/media/win-rect.png": "/Shop2Cash.in/static/media/win-rect.c684bf630dd95e7b70f4.png",
+    "static/media/image-new.png": "/Shop2Cash.in/static/media/image-new.2c419c5e467056ecf45c.png",
+    "static/media/image 7.png": "/Shop2Cash.in/static/media/image 7.961c697beaf062edf5ee.png",
+    "static/media/image 6.png": "/Shop2Cash.in/static/media/image 6.5332b7a2f1a63c3004cc.png",
+    "static/media/image 5.png": "/Shop2Cash.in/static/media/image 5.c2b0fdf4bd9caa28ed19.png",
+    "index.html": "/Shop2Cash.in/index.html",
+    "main.55bbe840.css.map": "/Shop2Cash.in/static/css/main.55bbe840.css.map",
+    "main.45b70805.js.map": "/Shop2Cash.in/static/js/main.45b70805.js.map",
+    "787.bfb690a5.chunk.js.map": "/Shop2Cash.in/static/js/787.bfb690a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55bbe840.css",
+    "static/js/main.45b70805.js"
+  ]
+}
